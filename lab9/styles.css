@@ -1,0 +1,41 @@
+.table-main{
+
+}
+
+.menu{
+    max-width: 400px;
+    min-width: 100px;
+    font-size: large;
+    color: white;
+    vertical-align: top;
+}
+menu ul{
+    list-style-type: none;
+}
+
+.menu-left{
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+.menu-right{
+    margin-left: 20px;
+}
+
+.content{
+    vertical-align: top;
+    margin: 0px 15px;
+    background-color: var(--secondary);
+    padding: 10px 30px 50px;
+}
+
+.pseudo-btn{
+    font-size: small;
+    margin-bottom: 2px;
+    padding: 5px 0;
+    border-radius: 2px;
+}
+.pseudo-btn:hover{
+    background-color: var(--light);
+    color: var(--dark);
+}

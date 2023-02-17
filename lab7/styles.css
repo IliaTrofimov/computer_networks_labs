@@ -1,0 +1,38 @@
+.card{
+    float: left;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+#card_1_2{
+    margin-left: -60px;
+    margin-top: 20px;
+    z-index: 1;
+}
+#card_1_3{
+    margin-left: -60px;
+    margin-top: 40px;
+    z-index: 2;
+}
+
+#card_2_2{
+    margin-left: -20px;
+    margin-top: 20px;
+    z-index: 1;
+}
+#card_2_3{
+    margin-left: -20px;
+}
+
+#card_3_1{
+    margin-right: -40px;
+    margin-top: 40px;
+    z-index: 2;
+}
+#card_3_2{
+    margin-right: -40px;
+    margin-top: 20px;
+    z-index: 1;
+}

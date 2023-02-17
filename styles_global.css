@@ -1,0 +1,183 @@
+:root {
+    --primary: #3B71CA;
+    --primary-light: #c1d6f6;
+    --secondary: #9FA6B2;
+    --light: #F8F8F8;
+    --dark: #332D2D;
+    --shadow: #332d2dc2;
+
+    --red: #dc3545;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --teal: #20c997;
+    --cyan: #0dcaf0;
+    --green: #198754;
+    --yellow: #ffc107;
+    --pink: #d63384;
+    --orange: #fd7e14;
+    --blue: #0d6efd;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.container{
+    margin: -20px 0 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    padding: 20px 50px 20px;
+    background-color: var(--primary-light);
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+.header h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+.sub-header{
+    text-align: center;
+}
+
+
+.footer{
+    margin: 50px 0;
+    flex-shrink: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1440px;
+    align-self: center;
+}
+
+.item{
+    padding: 20px 15px;
+    margin: 10px 10px 20px;
+    border-radius: 5px;
+}
+.item h4{
+    margin: 0 0 10px 0;
+}
+.item a{
+    margin-right: 20px;
+}
+
+.code{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 9pt;
+    background-color: lightgrey;
+}
+
+.border-shadow{
+    box-shadow: 0px 0px 10px var(--shadow);
+}
+
+
+/* Colors */
+.bg-red {
+    background-color: var(--red);
+}
+.text-red {
+    color: var(--red);
+}
+.bg-cyan {
+    background-color: var(--cyan);
+}
+.text-cyan {
+    color: var(--cyan);
+}
+.bg-blue {
+    background-color: var(--blue);
+}
+.text-blue {
+    color: var(--blue);
+}
+.bg-teal {
+    background-color: var(--teal);
+}
+.text-teal {
+    color: var(--teal);
+}
+.bg-green {
+    background-color: var(--green);
+}
+.text-green {
+    color: var(--green);
+}
+.bg-orange {
+    background-color: var(--orange);
+}
+.text-orange {
+    color: var(--orange);
+}
+.bg-yellow {
+    background-color: var(--yellow);
+}
+.text-yellow {
+    color: var(--yellow);
+}
+.bg-pink {
+    background-color: var(--pink);
+}
+.text-pink {
+    color: var(--pink);
+}
+.bg-purple {
+    background-color: var(--purple);
+}
+.text-purple {
+    color: var(--purple);
+}
+.bg-indigo {
+    background-color: var(--indigo);
+}
+.text-indigo {
+    color: var(--indigo);
+}
+.bg-primary {
+    background-color: var(--primary);
+}
+.text-primary {
+    color: var(--primary);
+}
+.bg-primary-light {
+    background-color: var(--primary-light);
+}
+.text-primary-light {
+    color: var(--primary-light);
+}
+.bg-secondary {
+    background-color: var(--secondary);
+}
+.text-secondary {
+    color: var(--secondary);
+}
+.bg-light {
+    background-color: var(--light);
+}
+.text-light {
+    color: var(--light);
+}
+.bg-dark {
+    background-color: var(--dark);
+}
+.text-dark {
+    color: var(--dark);
+}

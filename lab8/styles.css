@@ -1,0 +1,39 @@
+#video {
+    border: 2px solid black;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+  
+#playbutton {
+    width: 0;
+    height: 50px;
+    position: relative;
+    left: -480px;
+    top: -230px;
+    background-color: transparent;
+    filter: opacity(60%);
+    cursor: pointer;
+    border: 25px solid transparent;
+    border-right-width: 0;
+    border-left: 40px #222;
+}
+  
+#playbutton.playing {
+    border-style: double;
+    border-width: 0 0 0 40px;
+}
+
+#rect-back{
+    width: 500px;
+    height: 500px;
+}
+
+#triangle{
+    padding-top: 120px;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 380px solid var(--yellow);
+    width: 0px;
+    height: 0px;
+}
