@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../../styles_global.css">
+    </head>
+    <body>
+        <h2>BitBlt function (wingdi.h)</h2>
+        The BitBlt function performs a bit-block transfer of the color data corresponding to a rectangle of
+        pixels from the specified source device context into a destination device context.
+        <h3>Syntax</h3>
+        <pre>BOOL BitBlt(
+            [in] HDC   hdc,
+            [in] int   x,
+            [in] int   y,
+            [in] int   cx,
+            [in] int   cy,
+            [in] HDC   hdcSrc,
+            [in] int   x1,
+            [in] int   y1,
+            [in] DWORD rop
+        );</pre>
+        <h3>Parameters</h3>
+        <p>
+            <pre>[in] hdc</pre>
+            A handle to the destination device context.
+            <pre>[in] x</pre>
+            The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.
+            <pre>[in] y</pre>
+            The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
+            <pre>[in] cx</pre>
+            The width, in logical units, of the source and destination rectangles.
+            <pre>[in] cy</pre>
+            The height, in logical units, of the source and the destination rectangles.
+            <pre>[in] hdcSrc</pre>
+            A handle to the source device context.
+            <pre>[in] x1</pre>
+            The x-coordinate, in logical units, of the upper-left corner of the source rectangle.
+            <pre>[in] y1</pre>
+            The y-coordinate, in logical units, of the upper-left corner of the source rectangle.
+            <pre>[in] rop</pre>
+
+            <div class="sub-header">
+                <a href="lab9_3_content_2.html">Next page</a>
+            </div>
+        </p>
+    </body>
+</html>
