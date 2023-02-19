@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Компьютерные сети</title>
+        <meta name="description" content="НИУ 'МЭИ', Компьютерные сети, 8-й семестр">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../styles_global.css">
+        <link rel="stylesheet" href="./styles.css">
+        <script src="../scripts_global.js" defer></script>
+        <script src="./scripts.js" defer></script>
+        <script src="calender.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Лабораторная работа №10.1</h2>
+                <strong>Задание</strong>
+                <ol>
+                    <li>
+                        Дополнить одну из разработанных ранее страниц Java-скриптом,
+                        перехватывающим событие <code>onload</code> и показывающим сообщение с приветствием.
+                    </li>
+                    <li>Добавить на одну из страниц часы (цифровые).</li>
+                    <li>Добавить на одну из страниц статический календарь, отображающий текущую дату.</li>
+                    <li>
+                        Добавить страницу с клиентским скриптом, задающим пользователю ряд вопросов и
+                        генерирующим на основе его ответов страницу в новом окне.
+                    </li>
+                    <li>Добавить на страницу "плавающий" рекламный слой.</li>
+                </ol>
+            </div>
+
+            <div class="items">
+                <div class="item border-shadow">
+                    <h4>Пункт 2</h4>
+                    <div>Текущее время</div>
+                    <div id="clock" style="font-family: monospace">00:00:00.0</div>
+                </div>
+                <div class="item border-shadow">
+                    <h4>Пункт 3</h4>
+                    <div class="calendar-wrapper">
+                        <div id="divCal"></div>
+                    </div>
+                </div>
+                <div class="item border-shadow">
+                    <h4>Пункт 4</h4>
+                    <div class="sub-header">Площадь треугольника</div>
+                    <form name="calculator" onsubmit="validateForm()">
+                        <div class="form-field">
+                            <div>
+                                <label>Координаты вершины А (x, y)</label>
+                            </div>
+                            <input name="point1_x" type="number" required>
+                            <input name="point1_y" type="number" required>
+                        </div>
+                        <div class="form-field">
+                            <div>
+                                <label>Координаты вершины B (x, y)</label>
+                            </div>
+                            <input name="point2_x" type="number" required>
+                            <input name="point2_y" type="number" required>
+                        </div>
+                        <div class="form-field">
+                            <div>
+                                <label>Координаты вершины C (x, y)</label>
+                            </div>
+                            <input name="point3_x" type="number" required>
+                            <input name="point3_y" type="number" required>
+                        </div>
+                        <div class="form-field sub-header">
+                            <button class="btn-primary" type="submit">Вычислить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="spam">
+            <h4>Пункт 5</h4>
+            <i>~ Рекламный баннер ~</i>
+        </div>
+        <footer class="footer">
+            <div>
+                <strong>Выполнил: </strong> Трофимов И.С., А-05-19
+            </div>
+            <div>
+                <a href="../lab9/lab9_3/index.html">Предыдущая</a> |
+                <a href="../index.html">Все лабораторные</a> |
+                <a href="../lab13/index.html">Следующая</a>
+            </div>
+            <button class="btn-primary" style="margin-top: 5px" onclick="scrollUpwards()">Наверх</button>
+        </footer>
+    </body>
+</html>

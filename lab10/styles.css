@@ -1,0 +1,60 @@
+/* ================================ Calendar ================================ */
+.calendar-wrapper {
+    width: 280px;
+}
+
+table {
+    clear: both;
+    width: 100%;
+    border: 1px solid var(--primary-light);
+    border-radius: 3px;
+    border-collapse: collapse;
+    color: var(--dark);
+}
+
+td {
+    padding: 5px 5px;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 1px solid var(--primary-light);
+    border-top: 1px solid var(--primary-light);
+    width: 14.28571429%;
+}
+thead td {
+    border: none;
+    color: var(--dark);
+    text-transform: uppercase;
+}
+td.not-current {
+    color: var(--secondary);
+}
+td.today {
+    font-weight: 800;
+    color: var(--primary);
+    font-size: 1.1em;
+}
+
+
+/* ================================ Forms ================================ */
+.form-field{
+    margin-bottom: 10px;
+}
+
+form{
+    margin: 5px 0 8px 0;
+}
+
+
+/* ================================ Spam ================================ */
+#spam{
+    width: 200px;
+    position: absolute;
+    top: 80%;
+    background: var(--pink);
+    color: var(--light);
+    font-size: large;
+    text-align: center;
+    padding: 10px 40px;
+    border: white 1px solid;
+    border-radius: 50px 30px 50px 30px;
+}
