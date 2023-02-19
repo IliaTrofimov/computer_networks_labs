@@ -1,0 +1,28 @@
+.table-menu{
+    padding: 7px 15px 7px 15px;
+    background-color: var(--teal);
+}
+
+.content{
+    vertical-align: top;
+    margin: 0px 15px;
+    background-color: var(--secondary);
+    padding: 10px 30px 50px;
+}
+
+.menu-item{
+    border-left: white 0px solid;
+    padding: 5px 5px 5px 15px;
+    height: 100%;
+}
+
+.menu-item-header{
+    margin: 0;
+    font-weight: 800;
+    font-size: large;
+}
+
+.small{
+    font-size: small;
+    margin: 0;
+}
