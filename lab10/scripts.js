@@ -31,7 +31,7 @@ function validateForm(){
     const input_p3_x = document.forms["calculator"]["point3_x"].value;
     const input_p3_y = document.forms["calculator"]["point3_y"].value;
 
-    const a = Math.sqrt(Math.pow(input_p1_x - input_p2_x, 2) + Math.pow(input_p2_y - input_p2_y, 2));
+    const a = Math.sqrt(Math.pow(input_p1_x - input_p2_x, 2) + Math.pow(input_p1_y - input_p2_y, 2));
     const b = Math.sqrt(Math.pow(input_p2_x - input_p3_x, 2) + Math.pow(input_p2_y - input_p3_y, 2));
     const c = Math.sqrt(Math.pow(input_p1_x - input_p3_x, 2) + Math.pow(input_p1_y - input_p3_y, 2));
     const p = (a + b + c) / 2.0;
