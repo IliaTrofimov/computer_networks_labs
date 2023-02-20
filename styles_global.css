@@ -64,7 +64,7 @@ body, html{
 .items{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     max-width: 1440px;
     align-self: center;
 }
@@ -79,12 +79,6 @@ body, html{
 }
 .item a{
     margin-right: 20px;
-}
-
-.code{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 9pt;
-    background-color: lightgrey;
 }
 
 
