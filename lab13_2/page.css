@@ -1,0 +1,42 @@
+
+.navigation {
+  padding: 10px 0 0 0;
+  background-color: var(--light);
+  border-bottom: 1px solid var(--secondary);
+}
+
+.navigation__link {
+  font-size: 16pt;
+  color: black;
+}
+
+.navigation__link:hover {
+  font-size: 16pt;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.article {
+  border-radius: 10px;
+
+  box-sizing: border-box;
+  padding: 40px;
+
+  margin: 0 auto;
+
+  width: 60em;
+  margin-top: 12px;
+  box-shadow: inset 3px 3px 6px 0px rgba(0, 0, 0, 0.3),
+    3px 3px 6px 0px rgba(0, 0, 0, 0.3);
+
+  background-color: var(--light);
+}
+
+.section {
+  padding-bottom: 16px;
+}
+
+.section:last-child {
+  padding-bottom: 0;
+}

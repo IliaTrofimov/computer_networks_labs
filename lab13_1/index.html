@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Компьютерные сети</title>
+        <meta name="description" content="НИУ 'МЭИ', Компьютерные сети, 8-й семестр">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../styles_global.css">
+        <link rel="stylesheet" href="./styles.css">
+        <script src="../scripts_global.js" defer></script>
+        <script src="./scripts.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Лабораторная работа №13.1</h2>
+                <strong>Задание</strong>
+                <ul>
+                    <li>
+                        Разработать страницу для тестирования знаний.
+                        Страницы содержат вопросы и варианты ответа, есть таймер ддля ограничения времени.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="items">
+                <div class="item border-shadow">
+                    <h4>Тестирование (площади фигур)</h4>
+                    <h5>Осталось времени: <i id="time">2 минуты</i></h5>
+                    <div class="sub-header">
+                        <button id="btn-start" class="btn-primary" onclick="startTest()">Начать!</button>
+                    </div>
+                    <div id="questions" >
+
+                    </div>
+                    <div class="sub-header" id="result"></div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div>
+                <strong>Выполнил: </strong> Трофимов И.С., А-05-19
+            </div>
+            <div>
+                <a href="../lab10/index.html">Предыдущая</a> |
+                <a href="../index.html">Все лабораторные</a> |
+                <a href="../lab13_2/index.html">Следующая</a>
+            </div>
+            <button class="btn-primary" style="margin-top: 5px" onclick="scrollUpwards()">Наверх</button>
+        </footer>
+    </body>
+</html>

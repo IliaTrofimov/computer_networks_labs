@@ -1,0 +1,127 @@
+:root {
+  --root__padding--left: 10px;
+  --root__width: 80px;
+
+  --nested__width: 250px;
+  --nested__padding--left: 10px;
+
+  --border__width: 1px;
+  --border: var(--border__width) solid var(--secondary);
+}
+
+.window__menu {
+  display: inline-block;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.window__menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.window__menu ul li {
+  position: relative;
+  display: block;
+  float: left;
+  width: var(--root__width);
+
+  border-right: var(--border);
+  padding-left: var(--root__padding--left);
+  cursor: pointer;
+}
+
+.window__menu ul li:last-child {
+  border-right: var(--border);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.window__menu ul li:first-child {
+
+}
+
+
+.window__menu ul li ul {
+  visibility: hidden;
+  position: absolute;
+  display: none;
+  width: var(--nested__width);
+
+  transform: translateX(
+    calc(var(--root__padding--left) * -1 - var(--border__width))
+  );
+  border-bottom: var(--border);
+}
+
+.window__menu ul li ul li {
+  border-right: var(--border);
+}
+
+.window__menu ul li ul li {
+  border-left: var(--border);
+  background-color: var(--light);
+  padding-left: 20px;
+}
+
+.window__menu ul li:hover > ul {
+  visibility: visible;
+  display: block;
+  background-color: var(--primary-light);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.window__menu ul li:hover > ul li:hover {
+  background-color: var(--primary-light);
+}
+
+.window__menu ul li ul li {
+  width: 100%;
+}
+
+.window__menu ul li ul li ul {
+  visibility: hidden;
+  left: calc(
+    var(--nested__padding--left) + var(--nested__width) - var(--border__width)
+  );
+  width: var(--nested__width);
+  position: absolute;
+  display: none;
+
+  top: calc(-1 * var(--border__width));
+  border-top: var(--border);
+}
+
+.window__menu ul li ul li:hover > ul {
+  visibility: visible;
+  display: inline-block;
+}
+
+.window__menu .menu__spacer {
+  border-bottom: var(--border);
+}
+
+.window__menu ul li .menu__dropdown-indicator {
+  padding-right: var(--root__padding--left);
+  float: right;
+  font-weight: 900;
+}
+
+.window__menu a.menu__action {
+  text-decoration: none;
+  color: black;
+}
+
+.window__menu a.menu__action:hover {
+  text-decoration: none;
+}
+
+.placeholder {
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  height: 500px;
+}

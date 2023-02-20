@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Компьютерные сети</title>
+        <meta name="description" content="НИУ 'МЭИ', Компьютерные сети, 8-й семестр">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="../scripts_global.js" defer></script>
+        <link rel="stylesheet" href="../styles_global.css">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./menu.css" type="text/css">
+        <link rel="stylesheet" href="./page.css" type="text/css">
+        <link rel="stylesheet" href="./reboot.css" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Лабораторная работа №13.2</h2>
+                <strong>Задание</strong>
+                <ul>
+                    <li>
+                        Реализовать на web-странице меню, выглядящее,как меню в Windows-приложениях, и содержащее не менее
+                        двух уровней вложенности.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="items">
+                <div class="item border-shadow" style="width: 1280px; padding: 0 0 15px 0">
+                    <div class="window__menu">
+                        <ul>
+                            <li>
+                                Файл
+                                <ul>
+                                    <li><a href="#" class="menu__action">Новый файл...</a></li>
+                                    <li class="menu__spacer"></li>
+                                    <li><a href="#" class="menu__action">Открыть...</a></li>
+                                    <li><a href="#" class="menu__action">Открыть папку...</a></li>
+                                    <li>
+                                        <span>
+                                            Открыть недавние
+                                            <span class="menu__dropdown-indicator">&gt</span>
+                                        </span>
+                                        <ul>
+                                            <li>Открыть недавние</li>
+                                            <li><a href="#" class="menu__action">Больше</a></li>
+                                            <li><a href="#" class="menu__action">Очистить недавние</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu__spacer"></li>
+                                    <li><a href="#" class="menu__action">Сохранить</a></li>
+                                    <li><a href="#" class="menu__action">Сохранить как...</a></li>
+                                    <li class="menu__spacer"></li>
+                                    <li><a href="#" class="menu__action">Выход</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                Изменть
+                                <ul>
+                                    <li><a href="#" class="menu__action">Вернуть</a></li>
+                                    <li class="menu__spacer"></li>
+                                    <li><a href="#" class="menu__action">Вырезать</a></li>
+                                    <li><a href="#" class="menu__action">Копировать</a></li>
+                                    <li><a href="#" class="menu__action">Вставить</a></li>
+                                    <li class="menu__spacer"></li>
+                                    <li><a href="#" class="menu__action">Найти</a></li>
+                                    <li><a href="#" class="menu__action">Заменить</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                Вид
+                                <ul>
+                                    <li><a href="#" class="menu__action">Масштаб</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                Помощь
+                                <ul>
+                                    <li><a href="#" class="menu__action">Справка</a></li>
+                                    <li><a href="#" class="menu__action">О программе</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="./img.jpeg">
+                </div>
+            </div>
+
+        </div>
+        <footer class="footer">
+            <div>
+                <strong>Выполнил: </strong> Трофимов И.С., А-05-19
+            </div>
+            <div>
+                <a href="../lab13_2/index.html">Предыдущая</a> |
+                <a href="../index.html">Все лабораторные</a> |
+            </div>
+            <button class="btn-primary" style="margin-top: 5px" onclick="scrollUpwards()">Наверх</button>
+        </footer>
+    </body>
+</html>

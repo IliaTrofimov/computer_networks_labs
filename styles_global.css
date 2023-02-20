@@ -105,6 +105,11 @@ body, html{
     background-color: var(--primary-light);
     color: var(--dark);
 }
+.btn-primary:disabled{
+    background-color: var(--secondary);
+    color: var(--dark);
+    cursor: default;
+}
 
 
 .float-left{
